@@ -177,6 +177,7 @@ body {
   font-weight: 800;
   color: white;
   box-shadow: var(--shadow-glow);
+  text-shadow: -1px 0 0 rgba(0, 255, 255, 0.7), 1px 0 0 rgba(255, 0, 0, 0.7);
 }
 
 .sidebar-logo-text {
@@ -929,6 +930,7 @@ body {
   font-weight: 800;
   color: white;
   box-shadow: var(--shadow-glow);
+  text-shadow: -1px 0 0 rgba(0, 255, 255, 0.7), 1px 0 0 rgba(255, 0, 0, 0.7);
 }
 
 .auth-logo-text {
