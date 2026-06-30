@@ -2,7 +2,7 @@
 
 > **Production-grade RAG system** with role-based access control, citation-backed answers, and enterprise security features.
 
-[![CI](https://github.com/yourusername/docuquery-ai/actions/workflows/ci.yml/badge.svg)](https://github.com/yourusername/docuquery-ai/actions/workflows/ci.yml)
+[![CI](https://github.com/Jay-vardhan-14/DocuQuery-AI/actions/workflows/ci.yml/badge.svg)](https://github.com/Jay-vardhan-14/DocuQuery-AI/actions/workflows/ci.yml)
 [![Python 3.11](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/downloads/release/python-3110/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.115-009688.svg)](https://fastapi.tiangolo.com)
 [![React 18](https://img.shields.io/badge/React-18-61DAFB.svg)](https://reactjs.org)
@@ -15,15 +15,15 @@
 
 | Login & Authentication | Chat & Citations |
 |:---:|:---:|
-| <img src="media/login.png" width="400" alt="Login Page"> | <img src="media/chat.png" width="400" alt="Chat Interface"> |
+| <img src="media/login.png" width="400" alt="Login Page"> | <img src="media/chat.png" width="400" alt="Chat Interface with Source Citations"> |
 
-| Document Management | Admin Dashboard |
+| Document Management | Admin Panel |
 |:---:|:---:|
-| <img src="media/upload_modal.png" width="400" alt="Documents & Upload"> | <img src="media/admin_panel.png" width="400" alt="User Management"> |
+| <img src="media/upload_modal.png" width="400" alt="Documents Page with Upload Modal"> | <img src="media/admin_panel.png" width="400" alt="Admin User Management"> |
 
-| System Metrics | Test Coverage |
-|:---:|:---:|
-| <img src="media/metrics.png" width="400" alt="Analytics Dashboard"> | <img src="media/coverage.png" width="400" alt="Test Coverage"> |
+| System Metrics |
+|:---:|
+| <img src="media/metrics.png" width="400" alt="Metrics Dashboard with Charts"> |
 
 
 ---
@@ -161,7 +161,7 @@ DocuQuery AI is a retrieval-augmented generation (RAG) system that allows organi
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/yourusername/docuquery-ai.git
+git clone https://github.com/Jay-vardhan-14/DocuQuery-AI.git
 cd docuquery-ai
 
 # 2. Configure environment
