@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            background-color: #1e1e1e;
+            color: #d4d4d4;
+            font-family: 'Consolas', 'Courier New', monospace;
+            padding: 20px;
+        }
+        pre {
+            font-size: 14px;
+            line-height: 1.5;
+            white-space: pre-wrap;
+        }
+        .header { color: #569cd6; }
+        .pass { color: #4ec9b0; }
+        .missing { color: #f44747; }
+        .total { font-weight: bold; color: #ce9178; }
+    </style>
+</head>
+<body>
+<pre>
+<span class="header">---------- coverage: platform linux, python 3.11.15-final-0 ----------</span>
+Name                                Stmts   Miss  Cover   Missing
+-----------------------------------------------------------------
+app/__init__.py                         0      0   100%
+app/api/__init__.py                     0      0   100%
+app/api/deps.py                        45     18    60%   31-38, 69, 77, 84-97, 140-150
+app/api/v1/__init__.py                  0      0   100%
+app/api/v1/admin.py                    71     48    32%   57-61, 79-119, 146-165, 187-256
+app/api/v1/auth.py                     50     18    64%   56-65, 90-100, 136, 142-157
+app/api/v1/documents.py                51     16    69%   72, 119-125, 154-174, 196-197, 223-229
+app/api/v1/health.py                   32      9    72%   54, 56-62, 70-76
+app/api/v1/query.py                    25      1    96%   84
+app/config.py                          33      0   100%
+app/database.py                        23     10    57%   45-52, 57-59
+app/main.py                            32      5    84%   27-32
+app/models/__init__.py                  6      0   100%
+app/models/audit_log.py                22      1    95%   75
+app/models/chunk.py                    22      1    95%   72
+app/models/document.py                 21      1    95%   80
+app/models/user.py                     19      1    95%   69
+app/schemas/__init__.py                 0      0   100%
+app/schemas/admin.py                   47      0   100%
+app/schemas/auth.py                    24      0   100%
+app/schemas/document.py                26      0   100%
+app/schemas/query.py                   25      0   100%
+app/security/__init__.py                0      0   100%
+app/security/jwt_handler.py            28      2    93%   81-82
+app/security/prompt_guard.py           17      0   100%
+app/security/rate_limiter.py           27      5    81%   25-30, 68-73
+app/security/rbac.py                   14      0   100%
+app/services/__init__.py                0      0   100%
+app/services/audit_service.py          23      8    65%   64-82, 106
+app/services/auth_service.py           43     24    44%   67-85, 104-107, 110-123, 137
+app/services/chunking_service.py       30      3    90%   80-81, 88
+app/services/document_service.py      111     66    41%   75, 85, 88, 104-127, 129-172, 197-206, 231, 254, 263-290, 308-320, 342-356, 375-380
+app/services/embedding_service.py      69     52    25%   24-29, 57-58, 80-100, 119-204, 221-222
+app/services/rag_service.py            91     36    60%   64-69, 212-213, 239, 250-286, 327-349, 359-372
+app/utils/__init__.py                   0      0   100%
+app/utils/metrics.py                   10      0   100%
+app/utils/parsers.py                   73     13    82%   71-72, 82-83, 140-147, 186
+-----------------------------------------------------------------
+<span class="total">TOTAL                                1110    338    70%</span>
+
+<span class="pass">================= 123 passed, 24 warnings in 353.10s (0:05:53) =================</span>
+</pre>
+</body>
+</html>
